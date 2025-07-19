@@ -1,0 +1,17 @@
+{
+  "name": "asimuka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,93 @@
+body {
+  background: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5vh auto;
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+}
+
+/* Novi dodatak: jasna grupacija sekcija */
+.section {
+  margin-bottom: 40px; /* veći razmak između sekcija */
+}
+
+/* Timer i gif unutar sekcije bliže jedan drugom */
+.section .timer,
+.section img {
+  margin-bottom: 10px; /* manji razmak unutar sekcije */
+}
+
+h1 {
+  color: #ff69b4;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.sad-cat {
+  width: 140px;
+  opacity: 0.85;
+  margin-bottom: 10px;
+}
+
+.dance-cat {
+  width: 160px;
+  margin-top: 10px;
+  animation: pulse 2s infinite;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.time-box {
+  background: #222;
+  color: #ff69b4;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 60px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(255,105,180,0.6);
+}
+
+.time-box span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.time-box span.flip {
+  transform: rotateX(360deg);
+}
+
+.time-box small {
+  color: #ccc;
+  font-size: 0.7rem;
+}
