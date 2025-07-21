@@ -87,7 +87,57 @@ p {
   transform: rotateX(360deg);
 }
 
-.time-box small {
-  color: #ccc;
-  font-size: 0.7rem;
+#awayCounter{
+  display: none
+}
+
+#days::after {
+  content: "d";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+#hours::after {
+  content: "h";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+#minutes::after {
+  content: "m";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+#seconds::after {
+  content: "s";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+
+/* Isto i za return timer */
+#r-days::after {
+  content: "d";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+#r-hours::after {
+  content: "h";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+#r-minutes::after {
+  content: "m";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
+}
+#r-seconds::after {
+  content: "s";
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: #ff69b4;
 }
