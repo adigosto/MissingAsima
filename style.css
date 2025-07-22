@@ -141,3 +141,21 @@ p {
   font-size: 0.8rem;
   color: #ff69b4;
 }
+.music-player {
+  margin-top: 15px;
+}
+
+.music-player button {
+  background: #ff69b4;
+  color: #121212;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.music-player button:hover {
+  background: #ff85c1;
+}

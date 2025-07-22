@@ -99,3 +99,17 @@ setInterval(() => {
 // === POČETNI POZIVI ===
 updateAwayCounters();
 updateReturnTimer();
+
+const playBtn = document.getElementById("playMusic");
+const themeSong = document.getElementById("themeSong");
+
+playBtn?.addEventListener("click", () => {
+  if (themeSong.paused) {
+    themeSong.play();
+    playBtn.textContent = "⏸ Pause song";
+  } else {
+    themeSong.pause();
+    playBtn.textContent = "🎵 Play our song";
+  }
+});
+
